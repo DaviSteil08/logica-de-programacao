@@ -46,8 +46,9 @@ INICIO
    ESCREVA "Tempo de permanência: ", tempo, "h"
    ESCREVA "Valor a pagar: R$ ", valor
 FIM
+```
 
-----------------
+## 6. Fluxograma de código.
 
 graph TD
     A([Início]) --> B[/Ler hora_entrada, hora_saida/]
@@ -62,7 +63,8 @@ graph TD
     H --> I
     I --> J([Fim])
 
------------------
+
+![Fluxograma do Estacionamento](fluxograma.jpg)
 
 +-------------------------------------------------------+
 |                        INÍCIO                         |
@@ -113,7 +115,6 @@ graph TD
 +-------------------------------------------------------+
 |                         FIM                           |
 +-------------------------------------------------------+
-
 -----------------
 
 ### 7. Teste de Mesa
